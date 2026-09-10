@@ -30,6 +30,7 @@ All articles in this repository strictly adhere to our core writing standards:
 - **Ditch Robotic Jargon**: Plain English explanations before introducing formal terminology.
 - **Relatable Analogies**: Anchoring abstract ideas in everyday models (backpacks, restaurants, filing cabinets).
 - **Short & Scannable**: Concise paragraphs (3–4 sentences max), clear headings, and bullet points.
+- **5 to 10-Minute Read**: Focused, high-density learning (~1,000 to 2,000 words) with zero fluff.
 
 ### 2. Mandatory Framework: What, When, Why, Example
 Every article follows this strict 4-part structure:

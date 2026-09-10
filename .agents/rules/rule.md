@@ -1,6 +1,6 @@
 ---
 trigger: always_on
-description: Antigravity workspace rules for Medium articles, code conventions, and UI components
+description: Antigravity workspace rules for Medium technical articles
 ---
 
 # Medium Workspace Rules
@@ -33,6 +33,7 @@ Every article must be written in a warm, natural, and conversational human tone:
   - Keep paragraphs short (maximum 3–4 sentences).
   - Use bullet points, bold text for key ideas, and clean vertical whitespace.
   - Make it engaging, easy to read, and memorable.
+- **Article Length**: Keep every article strictly within a **5 to 10 minutes read** (~1,000 to 2,000 words). It must be thorough enough to provide real depth, yet concise enough to stay engaging and free of fluff.
 
 ---
 
