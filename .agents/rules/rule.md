@@ -9,6 +9,18 @@ These guidelines apply exclusively to this workspace for creating technical arti
 
 ---
 
+# Rules
+
+- write article in
+  - What
+  - when
+  - Why
+  - Example
+  - Interview Question
+    in this format
+- write article in human natural language
+- in 2-3 minutes read
+
 ## 1. Topics (Derived from Root Folders)
 
 All articles must be organized into their corresponding root topic folders:
@@ -42,19 +54,23 @@ Every article must be written in a warm, natural, and conversational human tone:
 Every technical article must strictly follow this exact 4-part structure:
 
 ### 1. What
+
 - **What is it?** A straightforward, jargon-free explanation.
 - Anchor intuition with a relatable real-world analogy (e.g., backpack 🎒).
 
 ### 2. When
+
 - **When to use it**: Specific real-world scenarios, stages of a project, and practical use cases.
 - **When NOT to use it**: Situations where it causes unnecessary overhead or over-engineering.
 
 ### 3. Why
+
 - **Why does it matter?** The real-world pain point or bottleneck it solves.
 - Conceptual mechanics (how the JavaScript engine/runtime handles it).
 - Clear breakdown of pros, cons, and trade-offs.
 
 ### 4. Example
+
 - Concrete, realistic, runnable code examples.
 - Progressive difficulty: minimal clear demo -> production-grade implementation.
 - Explicit comparison between bad and good approaches:
@@ -80,7 +96,7 @@ To ensure articles format cleanly when copied and pasted directly into Medium's 
    - Use fenced code blocks with language identifiers.
    - Always put an empty line before and after code comments and output blocks to prevent line-merging on paste.
 5. **ASCII Diagrams Only (No Mermaid)**:
-   - Medium does NOT support Mermaid. Use ```` ```text ```` with clean ASCII art boxes.
+   - Medium does NOT support Mermaid. Use ` ```text ` with clean ASCII art boxes.
 6. **No Markdown Tables (`|---|`)**:
    - Medium does NOT support markdown tables. They break on paste.
    - Use clean bold Q&A bullet points instead:
