@@ -30,45 +30,70 @@ Every article must be written in a warm, natural, and conversational human tone:
 - **Ditch Robotic Jargon**: Avoid academic, dry, or robotic explanations. If a technical term is necessary, explain what it means in plain English first.
 - **Relatable Analogies**: Anchor abstract concepts in everyday mental models (e.g., backpacks, restaurants, post offices, filing cabinets).
 - **Punchy & Scannable**:
-  - Keep paragraphs short (maximum 3–4 sentences).
-  - Use bullet points, bold text for key ideas, and clean vertical whitespace.
+  - Keep paragraphs short (maximum 1–3 sentences).
+  - Use generous whitespace between thoughts to make reading effortless.
   - Make it engaging, easy to read, and memorable.
-- **Article Length**: Keep every article strictly within a **5 to 10 minutes read** (~1,000 to 2,000 words). It must be thorough enough to provide real depth, yet concise enough to stay engaging and free of fluff.
+- **Article Length**: Keep every article strictly within a **5 to 10 minutes read** (~1,000 to 2,000 words).
 
 ---
 
 ## 3. Mandatory Article Structure: What, When, Why, Example
 
-Every technical article or documentation file must strictly follow this exact 4-part structure:
+Every technical article must strictly follow this exact 4-part structure:
 
 ### 1. What
-
 - **What is it?** A straightforward, jargon-free explanation.
-- Set the scene with a relatable real-world hook or analogy to build instant intuition.
+- Anchor intuition with a relatable real-world analogy (e.g., backpack 🎒).
 
 ### 2. When
-
 - **When to use it**: Specific real-world scenarios, stages of a project, and practical use cases.
-- **When NOT to use it**: When it causes unnecessary overhead, over-engineering, or when an alternative approach is better.
+- **When NOT to use it**: Situations where it causes unnecessary overhead or over-engineering.
 
 ### 3. Why
-
-- **Why does it matter?** Why was it created, and what specific pain point or bottleneck does it solve?
-- Under-the-hood engine mechanics (how the browser, runtime, or cloud service handles it).
-- Clear breakdown of pros, cons, and performance trade-offs.
+- **Why does it matter?** The real-world pain point or bottleneck it solves.
+- Conceptual mechanics (how the JavaScript engine/runtime handles it).
+- Clear breakdown of pros, cons, and trade-offs.
 
 ### 4. Example
-
-- Concrete, realistic, copy-paste runnable code or architecture examples.
-- Progressive difficulty: start with a minimal clear demo, then show a production-grade implementation.
+- Concrete, realistic, runnable code examples.
+- Progressive difficulty: minimal clear demo -> production-grade implementation.
 - Explicit comparison between bad and good approaches:
   - `// ❌ Anti-pattern / What to avoid`
   - `// ✅ Recommended approach / Best practice`
-- Visual aid: include ASCII diagrams, flowcharts, or Mermaid diagrams to illustrate data flow or lifecycle.
 
 ---
 
-## 4. General Workspace Standards
+## 4. Medium-Compatible Formatting Rules (Strict Paste-Ready Standard)
+
+To ensure articles format cleanly when copied and pasted directly into Medium's editor, strictly follow the format validated in `javascript/closure.txt`:
+
+1. **Title & Subtitle**:
+   - Line 1: `# Title Here`
+   - Line 3: `*Italicized subtitle here*`
+2. **Headings**:
+   - Use `# 1. Section Title` (Single `#` for major sections like What, When, Why, Example).
+   - Use `### Subsection Title` or `## Subsection Title` for internal parts.
+3. **Paragraphs & Spacing**:
+   - Maximum 1–3 sentences per paragraph.
+   - Leave a blank line between every paragraph and code block so Medium doesn't collapse text.
+4. **Code Blocks (` ```javascript `)**:
+   - Use fenced code blocks with language identifiers.
+   - Always put an empty line before and after code comments and output blocks to prevent line-merging on paste.
+5. **ASCII Diagrams Only (No Mermaid)**:
+   - Medium does NOT support Mermaid. Use ```` ```text ```` with clean ASCII art boxes.
+6. **No Markdown Tables (`|---|`)**:
+   - Medium does NOT support markdown tables. They break on paste.
+   - Use clean bold Q&A bullet points instead:
+     `**Question?**`  
+     `→ Answer.`
+7. **Lists & Quotes**:
+   - Use `* List item` for bullets (converts to Medium native bullets).
+   - Use `> Quote` for callouts.
+   - Use `---` for Medium three-dot section dividers.
+
+---
+
+## 5. General Workspace Standards
 
 1. **Preserve Integrity**: Retain existing comments, docstrings, and logic unless explicitly requested to modify them.
 2. **File Paths & Links**: Always format file references as clickable Markdown links (e.g., `[filename](file:///path/to/file)`).
